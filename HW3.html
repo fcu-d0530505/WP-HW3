@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>A First Program in JavaScript</title>
+		
+	</head>
+	<script type="text/javascript">
+		var cTemp; 
+		var fTemp;
+		
+		cTemp = window.prompt("Enter a number of celsius degree :");
+		fTemp = parseInt(cTemp); 
+        document.writeln(fTemp + " °C = " + cToF(fTemp) + " °F"); 
+         
+    function cToF(cel) 
+    { 
+        var fah = cel * (9/5) + 32; 
+        return fah; 
+    } 
+	</script>
+<body></body>
+</html>
